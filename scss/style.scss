@@ -29,9 +29,10 @@
         gap: 40px;
         a {
             text-decoration: none;
+            color:#282B22;
             :hover {
                 transform: translate(1.1px,1.1px);
-                background-color:#1f630a;
+                
             }
         }
     }
