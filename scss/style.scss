@@ -29,10 +29,20 @@
         gap: 40px;
         a {
             text-decoration: none;
-            color:#282B22;
+            color:#3D4A39;
+            text-decoration: none;
             :hover {
                 transform: translate(1.1px,1.1px);
-                
+                p {
+ 
+/* Text_20px (semibold) */
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 20px */
+text-transform: uppercase;
+                }
             }
         }
     }
@@ -61,8 +71,12 @@ flex-shrink: 0;
           flex-shrink: 0;
           margin-left: 20px;
         }
+        a {
+            text-decoration: none;
+        }
         p {
-            color: var(--, #3D4A39);
+            color: #3D4A39;
+            
 
 /* Text_20px (semibold) */
 font-family: Lato;

@@ -33,10 +33,20 @@
 }
 .header__container ul a {
   text-decoration: none;
+  color: #3D4A39;
+  text-decoration: none;
 }
 .header__container ul a :hover {
   transform: translate(1.1px, 1.1px);
-  background-color: #1f630a;
+}
+.header__container ul a :hover p {
+  /* Text_20px (semibold) */
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 20px */
+  text-transform: uppercase;
 }
 .header__container .link__info {
   display: flex;
@@ -63,8 +73,11 @@
   flex-shrink: 0;
   margin-left: 20px;
 }
+.header__container .phone a {
+  text-decoration: none;
+}
 .header__container .phone p {
-  color: var(--, #3D4A39);
+  color: #3D4A39;
   /* Text_20px (semibold) */
   font-family: Lato;
   font-size: 20px;
